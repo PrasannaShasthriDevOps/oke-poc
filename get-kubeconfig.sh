@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Based on https://docs.us-phoenix-1.oraclecloud.com/Content/Resources/Assets/signing_sample_bash.txt
 
