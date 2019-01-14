@@ -2,7 +2,8 @@
 
 # Based on https://docs.us-phoenix-1.oraclecloud.com/Content/Resources/Assets/signing_sample_bash.txt
 
-CONFIG=${CONFIG:-~/.oci/config}
+#CONFIG=${CONFIG:-~/.oci/config}
+CONFIG=${CONFIG:-/home/opc/.oci/config}
 DEFAULT_ENDPOINT="containerengine.us-phoenix-1.oraclecloud.com"
 #DEFAULT_ENDPOINT="containerengine.us-ashburn-1.oraclecloud.com"
 ENDPOINT=${ENDPOINT:-"$DEFAULT_ENDPOINT"}
