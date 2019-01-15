@@ -27,7 +27,7 @@ deploy-to-kubernetes:
     #- kubectl:
     #   name: set deployment timeout
     #  server: $OKE_MASTER
-       # token: $OKE_TOKEN
+    # token: $OKE_TOKEN
         #insecure-skip-tls-verify: true
         #command: patch deployment/asegui-wercker -p '{"spec":{"progressDeadlineSeconds":240}}'
 
