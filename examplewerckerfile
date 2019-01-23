@@ -33,3 +33,6 @@ deploy:
     - script:
       name: step five
       code: echo "Step Five"
+    - script:
+      name: step six
+      code: echo "Step six"
